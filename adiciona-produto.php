@@ -14,10 +14,10 @@ $conexao = mysqli_connect('localhost', 'root', 'root', 'phploja');
 
 // executa query
 if (insereProduto($conexao, $nome, $preco)) { ?>
-    <p class="alert-success">Produto <?= $nome ?>, <?= $preco ?> adicionado com sucesso!</p>
+    <p class="text-success">Produto <?= $nome ?>, <?= $preco ?> adicionado com sucesso!</p>
 <?php 
 } else { ?>
-    <p class="alert-danger">Produto <?= $nome ?> não foi adicionado!</p>
+    <p class="text-danger">Produto <?= $nome ?> não foi adicionado!</p>
 <?php 
 }
 ?>
