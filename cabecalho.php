@@ -9,5 +9,18 @@
     <link rel="stylesheet" href="css/loja.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="navbar navbar-expand-md justify-content-start justify-content-md-between">
+            <a href="index.php" class="navbar-brand">Minha Loja</a>
+            <div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produto-formulario.php">Adiciona produto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
     <div class="container">
         <div class="principal">

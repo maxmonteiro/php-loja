@@ -1,6 +1,16 @@
-body { margin: 0; padding: 0; }
-body {
-    margin-top: 50px;
+@font-face {
+    font-family: "Google Sans";
+    src: url("../fonts/GoogleSans-Regular.ttf")
+}
+@media (min-width: 768px) {
+    .site-header {
+        align-items: center;
+        flex-direction: row;
+    }
+}
+body { margin: 0; padding: 0; font-family: "Google Sans", Helvetica, sans-serif};
+.site-header {
+    display: flex;
 }
 .principal {
     padding: 40px 15px;
